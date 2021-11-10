@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+      - add_request_macvlan-lint
 
 jobs:
   rustfmt_clippy:
