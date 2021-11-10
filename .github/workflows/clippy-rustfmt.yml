@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - master
+      - lint-test
 
 jobs:
   rustfmt_clippy:
